@@ -14,13 +14,10 @@ import os
 import sys
 
 RED = "\033[1;31m"
-
 RESET = "\033[0m"
 
 file_path = sys.argv[1]
-
 file_ext = os.path.splitext(file_path)[1]
-
 file_kwargs = {}
 
 try:
